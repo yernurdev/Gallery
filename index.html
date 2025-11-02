@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery Playground</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>jQuery Playground</h1>
+      <p>Selectors | Effects | Animations</p>
+    </header>
+
+    <main>
+      <!-- PART 1 -->
+      <section id="intro">
+        <h2>Part 1: Selectors and CSS</h2>
+        <p id="info-text">Click below to modify this text dynamically!</p>
+        <button id="update-text">Update Text</button>
+      </section>
+
+      <!-- PART 2 -->
+      <section id="visuals">
+        <h2>Part 2: jQuery Effects</h2>
+
+        <p class="visibility-text">Now you see me... or maybe not!</p>
+        <div class="btn-row">
+          <button id="btn-hide">Hide</button>
+          <button id="btn-show">Show</button>
+          <button id="btn-toggle">Toggle</button>
+        </div>
+
+        <div class="fade-block">
+          <img id="team-logo" src="team.png" alt="project" />
+          <div class="btn-row">
+            <button id="fade-in">Fade In</button>
+            <button id="fade-out">Fade Out</button>
+            <button id="fade-toggle">Fade Toggle</button>
+          </div>
+        </div>
+
+        <div class="slide-box">
+          <button id="panel-trigger">Toggle Slide Box</button>
+          <div id="slide-content">This content slides smoothly!</div>
+        </div>
+      </section>
+
+      <!-- PART 3 -->
+      <section id="dom">
+        <h2>Part 3: DOM Manipulation</h2>
+        <ul id="task-list">
+          <li>Task 1</li>
+        </ul>
+        <button id="add-task">Add Task</button>
+        <button id="remove-task">Remove Task</button>
+
+        <div class="media-controls">
+          <img id="player-img" src="CortexAI.jpg" alt="project" />
+          <br />
+          <button id="swap-img">Swap Image</button>
+          <button id="update-link">Update Link</button>
+          <a id="player-link" href="https://cortexai.asia/"
+            >Learn about CortexAI</a
+          >
+        </div>
+
+        <div class="live-form">
+          <h3>Live Input Preview</h3>
+          <form>
+            <input type="text" id="username" placeholder="Your Name" />
+            <input type="email" id="useremail" placeholder="Your Email" />
+          </form>
+          <p>Name: <span id="live-name"></span></p>
+          <p>Email: <span id="live-email"></span></p>
+        </div>
+      </section>
+
+      <!-- PART 4 -->
+      <section id="animation">
+        <h2>Part 4: Animations</h2>
+        <div id="square"></div>
+        <button id="move-basic">Basic Move</button>
+        <button id="move-sequence">Sequential Move</button>
+        <button id="move-combo">Combined Animation</button>
+      </section>
+
+      <!-- PART 5 -->
+      <section id="project">
+        <h2>Part 5: Mini Project — jQuery Accordion Menu</h2>
+        <div class="accordion">
+          <div class="accordion-item">
+            <h3 class="acc-header">Section 1</h3>
+            <div class="acc-body">This is section 1 content.</div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="acc-header">Section 2</h3>
+            <div class="acc-body">Here goes section 2 details.</div>
+          </div>
+          <div class="accordion-item">
+            <h3 class="acc-header">Section 3</h3>
+            <div class="acc-body">Final section 3 information.</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Created by <strong>Yernur Syrlibayev</strong> | Group: <strong>SE-2439</strong></p>
+      <p>&copy; 2025</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
