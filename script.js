@@ -29,7 +29,7 @@ $(document).ready(function () {
   $("#remove-task").click(() => $("#task-list li:last").remove());
 
   $("#swap-img").click(() =>
-    $("#player-img").attr("src", "images/messi2.jpg")
+    $("#player-img").attr("src", "team.png")
   );
   $("#update-link").click(() =>
     $("#player-link")
